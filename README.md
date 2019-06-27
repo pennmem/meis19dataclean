@@ -39,7 +39,7 @@ You can use the following keys to index into the structures. Each element repres
 'sessions': Number of session within an experiment (0 being the first session). For example, if 'sessions' output is [0, 0, 1], then the subject may have one subject of 'FR1' and two of 'catFR1'. The output of 'exps' would be ['FR1', 'catFR1', 'catFR1']
 
 
-'powers_car_uni': Log-transformed power output from morlet wavelet convolution for common-average rereferenced data for the univariate analyses. Shape is $num_words$ X ($num_channels$ X8) since there are eight frequency bins. The *Nth* 8 row elements represent the 8 powers for the *Nth* channel.
+'powers_car_uni': Time-averaged power output from morlet wavelet convolution for common-average rereferenced data for the univariate analyses. Shape is $num_words$ X ($num_channels$ X8) since there are eight frequency bins. The *Nth* 8 row elements represent the 8 powers for the *Nth* channel.
 
 You can also use 'pairs' instead of 'car' to denote bipolar data, and 'multi' instead of 'uni' to denote the frequencies used for multivaraite analyses.
 
