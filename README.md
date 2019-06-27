@@ -1,5 +1,5 @@
 # meis19dataclean
-Data and code used in Steven Meisler's paper in iEEG preprocessing
+Data and code used in Steven Meisler's paper on iEEG preprocessing
 
 # Subject Data Structures
 Subject data structures may be found in (XXXXX). To load a subject's data and assign it to a variable, use $VAR_NAME$ = np.load('$PATH_TO_SUBJECT_DATA$')['data'][()]
