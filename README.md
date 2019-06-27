@@ -5,6 +5,7 @@ Data and code used in Steven Meisler's paper in iEEG preprocessing
 Subject data structures may be found in (XXXXX). To load a subject's data and assign it to a variable, use $VAR_NAME$ = np.load('$PATH_TO_SUBJECT_DATA$')['data'][()]
 
 You can use the following keys to index into the structures. Each element represents data from a different session. A lot of these data were gathered using the CMLReader (documentation can be found here: https://github.com/pennmem/cmlreaders):
+
 'D'/'G'/'S': Indices of Depth, Grid, and Strip electrodes, respectively.
 
 'contacts': Data frame with electrode information, such as label name, region, and coordinates.
